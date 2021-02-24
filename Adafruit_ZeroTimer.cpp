@@ -334,7 +334,7 @@ boolean Adafruit_ZeroTimer::PWMout(boolean pwmout, uint8_t channum,
         }
       }
       if (channum == 1) {
-        if (pin == A5) {
+        if (pin == D1) {
           pinout = PIN_PB09E_TC4_WO1;
           pinmux = MUX_PB09E_TC4_WO1;
         }
